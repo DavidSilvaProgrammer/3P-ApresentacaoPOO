@@ -1,0 +1,8 @@
+class Cubo:
+    '''Classe para calcular o cubo de um número'''
+    def __init__(self,valor): #método construtor da classe
+        self.x=valor
+        print('Objeto criado!')
+    
+    
+teste= Cubo(6)
