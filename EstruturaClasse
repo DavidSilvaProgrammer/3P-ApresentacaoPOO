@@ -1,0 +1,8 @@
+class NomeClass: #cabeçalho da classe
+'''doctring (opcional)'''
+dado = valor #dado de classe compartilhado (atributo de classe)
+
+def método_construtor #método construtor
+  código método construtor
+def método(self,...)#método geral
+self.membro=valor #dado de instância ('self')
