@@ -4,5 +4,13 @@ class Cubo:
         self.x=valor
         print('Objeto criado!')
     
+    def calcula_cubo(self): #cubo nao tem o self, isso signifca que não pode ser usado dentro de toda a classe como uma variável global, somente pode ser usado dentro de um método
+    #padrão de escrita de método é letra minúscula com underline no meio
+        cubo=self.x*self.x*self.x
+        return 'Cubo calculado: '+ str(cubo)
     
-teste= Cubo(6)
+teste=Cubo(6)
+c=teste.calcula_cubo() #colocando objeto dentro de variável
+print(c)
+print("\n")
+print(teste.calcula_cubo()) #utilizando objeto diretamente
