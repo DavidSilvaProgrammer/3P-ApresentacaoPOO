@@ -8,4 +8,11 @@ Quando a classse inclui o método __init__(), ele é
 automaticamente invocado quando ela é instanciada.
 
 
-O identificador
+O identificador self
+
+Sintaticamente, o parâmetro self identifica a instância sobre a qual um método é invocado.
+Ou seja, é uma referência à instância atual da classe(objeto).
+
+É usado para acessar os membros que pertecem à classe em si.
+
+Deve ser sempre o primeiro parâmetro usado na definição de um método.
