@@ -1,0 +1,8 @@
+Método especial usado para inicializar um objeto instanciado.
+
+Sintaxe:
+def __init__(self, parâmetros):
+  código do método construtor
+  
+Quando a classse inclui o método __init__(), ele é
+automaticamente invocado quando ela é instanciada.
