@@ -6,3 +6,6 @@ def __init__(self, parâmetros):
   
 Quando a classse inclui o método __init__(), ele é
 automaticamente invocado quando ela é instanciada.
+
+
+O identificador
