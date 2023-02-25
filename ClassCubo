@@ -8,7 +8,7 @@ class Cubo:
     #padrão de escrita de método é letra minúscula com underline no meio
         cubo=self.x*self.x*self.x
         return 'Cubo calculado: '+ str(cubo)
-    
+    #O valor que está em cubo é um número por isso deve-se usar a função str() para fazer a concatenação
 teste=Cubo(6)
 c=teste.calcula_cubo() #colocando objeto dentro de variável
 print(c)
