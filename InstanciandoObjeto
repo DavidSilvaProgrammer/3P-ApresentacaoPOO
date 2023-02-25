@@ -9,3 +9,8 @@ class Cubo:
         
 teste = Cubo(6)
 print(teste.calcula_cubo())
+
+c = teste.calcula_cubo()
+
+print(c)
+
