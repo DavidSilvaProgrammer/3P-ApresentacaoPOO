@@ -1,0 +1,12 @@
+#sintaxe de classe em pyton
+
+#especificando membros:
+
+class Nome Classe: #cabeçalho da classe
+    '''docstring (opcional)'''
+
+    dado = valor #dado de classe compatilhado (atributo de classe)
+    def método_construtor #método construtor
+        código método construtor
+    def método(self,...) #método geral
+        self.membro = valor # dado de instância ('self')
