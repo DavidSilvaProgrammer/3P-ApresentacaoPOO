@@ -19,4 +19,9 @@ print("Valor do objeto: ", teste.get_valor())
 
 '''Modo inseguro sem encapsulamento para imprimir os dados'''
 print(teste.x)
-    
+
+val = int(input("Digite um valor numérico:"))
+teste.set_valor(val)
+
+print("Valor do objeto modificado: ", teste.get_valor())
+
