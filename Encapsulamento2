@@ -16,6 +16,11 @@ class Animal():
     def nome(self,new_name):
         print("Setter foi chamado")
         if type(new_name)==type(str()):
-            self__nome=new_name
+            self.__nome=new_name
         else:
                 print("Nome deve ser uma string")
+
+Leao=Animal()
+Leao.nome="Simba"
+Leao.nome
+print("Imprimindo: ",Leao.nome)
