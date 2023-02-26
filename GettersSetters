@@ -1,0 +1,22 @@
+class Teste():
+    def __init__(self,valor):
+        self.x=valor
+    
+    def get_valor(self):
+        '''Método getter para retornar o valor do atributo x:'''
+        return self.x
+    
+    def set_valor(self,v):
+        '''Método setter para atribuir um novo valor ao atributo x'''
+        self.x=v
+        
+        
+'''Processo de instaciação'''
+teste = Teste(10)
+
+'''Uso do encapsulamento para imprimir os dados'''
+print("Valor do objeto: ", teste.get_valor())
+
+'''Modo inseguro sem encapsulamento para imprimir os dados'''
+print(teste.x)
+    
