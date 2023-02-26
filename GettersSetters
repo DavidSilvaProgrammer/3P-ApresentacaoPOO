@@ -23,5 +23,5 @@ print(teste.x)
 val = int(input("Digite um valor numérico:"))
 teste.set_valor(val)
 
-print("Valor do objeto modificado: ", teste.get_valor())
+print("Valor do objeto após a atribuição: ", teste.get_valor())
 
