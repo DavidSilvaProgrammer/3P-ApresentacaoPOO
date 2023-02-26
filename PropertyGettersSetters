@@ -1,7 +1,7 @@
 class Animal():
     peso = 0
     
-    def imprimir(self)
+    def imprimir(self):
         print("Meu nome:", self.nome)
         print("Meu peso:", self.peso)
         
@@ -12,13 +12,13 @@ class Animal():
         return self._nome
     def set_nome(self,new_name):
         print("Metódo setter foi chamado")
-        if (type(new_name))==type(str())):
+        if (type(new_name)==type(str())):
             self._name=new_name
         else:
             print("Nome deve ser uma string")
         
     nome=property(get_nome,set_nome)
-    Leao=Animal() #Sem usar ser_nome()
-    Leao.nome=1
-    Leao.nome
-    
+
+Leao=Animal() #Sem usar ser_nome()
+Leao.nome=1
+Leao.nome
