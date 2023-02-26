@@ -1,0 +1,8 @@
+# 1
+Idade = property(getIdade,setIdade)
+# 2
+idade = property(fget=getIdade,fset=setIdade)
+# 3
+idade = property()
+idade= idade.getter(getIdade)
+idade= idade.setter(set.Idade)
