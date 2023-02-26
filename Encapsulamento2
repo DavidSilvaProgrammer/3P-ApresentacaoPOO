@@ -1,0 +1,21 @@
+class Animal():
+    peso=0
+    
+    def imprimir(self):
+        print("Meu nome:",self.nome)
+        print("Meu peso:", self.peso)
+    def alimentar(self, comida):
+        self.peso+=comida
+    
+    @property
+    def nome(self):
+        print("Getter foi chamado")
+        return self.__nome
+    
+    @nome.setter
+    def nome(self,new_name):
+        print("Setter foi chamado")
+        if type(new_name)==type(str()):
+            self__nome=new_name
+        else:
+                print("Nome deve ser uma string")
