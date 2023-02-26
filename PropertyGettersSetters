@@ -1,0 +1,20 @@
+class Animal():
+    peso = 0
+    
+    def imprimir(self)
+        print("Meu nome:", self.nome)
+        print("Meu peso:", self.peso)
+        
+    def alimentar(self,comida):
+        self.peso+=comida
+    def get_nome(self):
+        print("Metodo getter foi chamado")
+        return self._nome
+    def set_nome(self,new_name):
+        print("Metódo setter foi chamado")
+        if (type(new_name))==type(str())):
+            self._name=new_name
+        else:
+            print("Nome deve ser um numero")
+        
+    nome=property(get_nome,set_nome)
