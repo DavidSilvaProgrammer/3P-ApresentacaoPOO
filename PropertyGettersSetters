@@ -15,6 +15,10 @@ class Animal():
         if (type(new_name))==type(str())):
             self._name=new_name
         else:
-            print("Nome deve ser um numero")
+            print("Nome deve ser uma string")
         
     nome=property(get_nome,set_nome)
+    Leao=Animal() #Sem usar ser_nome()
+    Leao.nome=1
+    Leao.nome
+    
