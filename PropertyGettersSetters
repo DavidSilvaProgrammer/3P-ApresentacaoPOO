@@ -9,11 +9,11 @@ class Animal():
         self.peso+=comida
     def get_nome(self):
         print("Metodo getter foi chamado")
-        return self._nome
+        return self.__nome
     def set_nome(self,new_name):
         print("Metódo setter foi chamado")
         if (type(new_name)==type(str())):
-            self._name=new_name
+            self.__nome=new_name
         else:
             print("Nome deve ser uma string")
         
@@ -21,4 +21,7 @@ class Animal():
 
 Leao=Animal() #Sem usar ser_nome()
 Leao.nome=1
+Leao.nome="Simba"
 Leao.nome
+print(Leao.nome)
+
