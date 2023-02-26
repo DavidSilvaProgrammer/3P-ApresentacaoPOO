@@ -1,0 +1,18 @@
+class Pessoa():
+    def setIdade(self,idade):
+        print("O metodo setter foi chamado")
+        if type(idade) != type(int()):
+            raise ValueError("Idade invalida")
+        self.__idade=idade
+    def getIdade(self,idade):
+        print("O metodo getter foi chamado")
+        return self.__idade
+    idade=property(getIdade,setIdade)
+
+P1=Pessoa()
+P1.idade=10
+P1.idade=''
+
+
+#O programa no final da erro porque idade está sendo chamada com aspas
+#o que representa uma string
