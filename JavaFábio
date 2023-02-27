@@ -1,0 +1,22 @@
+class Carro{
+    string marca; //Define a marca do carro
+}
+    string modelo; //Define o modelo do carro
+    int ano; //Define o ano de fabricação do carro
+    string categoria; // Define a categoria, por exemplo carro de passei, utilitário...
+    double potencia;// Define a potência do carro
+    double autonomia; // Define se o carro está ligado
+    
+    public Carro(){
+    }
+    public Carro(){
+        string marca,string modelo, int ano,string categoria,double potencia,double autonomia,boolean ligado){
+            this.marca = marca;
+            this.modelo = modelo;
+            this.ano = ano;
+            this.categoria = categoria;
+            this.potencia = potencia;
+            this.autonomia = autonomia;
+            this.ligado = ligado;
+        }
+    }
