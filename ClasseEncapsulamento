@@ -1,0 +1,14 @@
+class Encapsulamento():
+    def __init__(self,valor):
+        self.__val_interna=valor
+    def get_valor(self):
+        return self.__val_interna
+    def set_valor(self,valor2):
+        self.__val_interna=valor2
+    
+
+objeto = Encapsulamento(5)
+print(objeto.get_valor())
+
+objeto.set_valor(7)
+print(objeto.get_valor())
