@@ -1,0 +1,11 @@
+#Como definir uma classe em Python
+
+#Especificando membros:
+
+class NomeClasse: #cabeçalho da classe
+    '''docsstring (opciona)'''
+    dado=valor #atributo da classe
+    def método_construtor #método construtor
+        código método construtor
+    def método(self,...) #método geral
+        self.membre = valor #dado de instância ('self')
