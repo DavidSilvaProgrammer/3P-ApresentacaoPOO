@@ -1,0 +1,13 @@
+class Cubo:
+    '''Classe para calcular o cubo de um número'''
+    def __init__(self,valor):
+        self.val_interna = valor
+    print("Objeto criado")
+    
+    def calcula_cubo(self):
+        cubo = self.val_interna*self.val_interna*self.val_interna
+        print("Resultado: " + str(cubo))
+    
+objeto_cubo = Cubo(5)
+objeto_cubo.calcula_cubo()
+        
