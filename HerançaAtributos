@@ -1,0 +1,10 @@
+class Nome:
+    def __init__(self):
+        self.nome = "Joao" 
+
+class Funcionario(Nome):
+  def analisar_tarefas(self):
+        print("Fez muita coisa,", self.nome,"!")
+        
+objeto=Funcionario()
+objeto.analisar_tarefas()
