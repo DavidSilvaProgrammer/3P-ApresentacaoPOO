@@ -1,0 +1,13 @@
+class Cliente:
+    def cadastrar(self):
+        print("Informe seus dados para o cadastro: ")
+        self.nome=input("Nome:")
+        self.idade=int(input("Idade:"))
+        self.sexo=(input("Sexo:"))
+        self.telefone=int(input("Telefone:"))
+        
+        print(f"\nDados cadastrados:\nNome:{self.nome}\nIdade:{self.idade}
+        \nSexo:{self.sexo}\nTelefone:{self.telefone}")
+
+objeto=Cliente()
+objeto.cadastrar()
