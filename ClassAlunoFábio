@@ -1,0 +1,7 @@
+class Aluno:
+	def __init__(self,aluno,curso):
+		self.aluno=aluno
+		self.curso=curso
+		print("Dados do aluno:\n Nome: ",self.aluno,"\nCurso: ",self.curso)
+
+objeto=Aluno("Fábio","Ciência da Computação")
