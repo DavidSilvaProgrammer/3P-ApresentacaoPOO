@@ -1,0 +1,19 @@
+class Mae:
+    def __init__(self, endereco):
+        self.endereco = endereco
+        self.sobrenome = "Silva"
+    def comer(self):
+        print("Estou comendo!!!")
+    def estudar(self):
+        print("Estou estudando")
+    
+class Mae2:
+    def __init__(self,endereco):
+        self.something=something
+
+class Filha(Mae):
+    def __init__(self):
+        super().__init__("Rua do bolo")
+
+clara=Filha()
+clara.estudar()
